@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.21.0 at 2025-12-24T23:50:20.795397546Z
+# Generated with JReleaser 1.21.0 at 2025-12-25T00:30:13.379714116Z
 name: kite
 version: "0.2.3"
 summary: Multi-cloud Infrastructure as Code CLI
@@ -12,6 +12,13 @@ confinement: strict
 base: core22
 type: app
 
+architectures:
+  - build-on: [amd64]
+    run-on: [amd64]
+    
+  - build-on: [arm64]
+    run-on: [arm64]
+    
 apps:
   kite:
     command: bin/kite
