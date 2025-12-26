@@ -1,11 +1,24 @@
 name: kite
 version: '0.2.3'
-summary: Multi-cloud Infrastructure as Code CLI
+summary: Multi-cloud Infrastructure as Code CLI - write once, deploy anywhere
 description: |
-  |
-  Kite is a multi-cloud Infrastructure as Code (IaC) tool that provides
-  a "write once, provision anywhere" approach using a custom .kite language
-  for defining cloud resources that can be deployed to AWS, GCP, or Azure.
+  Kite is a multi-cloud Infrastructure as Code (IaC) tool that lets you define
+  cloud resources using a simple .kite language and deploy them to AWS, GCP,
+  or Azure.
+
+  Features:
+  • Write once, provision anywhere - same code works across cloud providers
+  • Simple, readable syntax for defining infrastructure
+  • Native CLI with fast startup (GraalVM native image)
+  • Support for AWS, Google Cloud, and Microsoft Azure
+
+  Get started:
+    kite init myproject
+    kite plan
+    kite apply
+
+  Documentation: https://kitelang.cloud/docs
+  Source: https://github.com/kitecorp/kite-language
 
 grade: stable
 confinement: strict
@@ -13,9 +26,7 @@ base: core22
 
 architectures:
   - build-on: [amd64]
-    run-on: [amd64]
   - build-on: [arm64]
-    run-on: [arm64]
 
 apps:
   kite:
