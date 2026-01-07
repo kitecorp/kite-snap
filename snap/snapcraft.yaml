@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.22.0 at 2026-01-07T05:36:20.231912773Z
+# Generated with JReleaser 1.22.0 at 2026-01-07T05:55:17.933933253Z
 name: kite
 version: "0.3.3"
 summary: Multi-cloud Infrastructure as Code CLI
@@ -27,6 +27,6 @@ parts:
   kite:
     plugin: dump
     source: https://github.com/kitecorp/kite-cli/releases/download/v0.3.3/kite-0.3.3-linux-amd64.tar.gz
-    source-checksum: sha256/eb685c15b8602c538cae6e5a0d72601db2674b333949677c147387b0c99b77b6
+    source-checksum: sha256/bb0f5e0ecce86eddab7515e34e370ee3ffc73ca66a5ee7b00b6bdb459638b7f7
     stage-packages:
       - curl
