@@ -1,5 +1,5 @@
 name: kite
-version: '0.3.5'
+version: '0.3.6'
 summary: Multi-cloud Infrastructure as Code CLI - write once, deploy anywhere
 description: |
   Kite is a multi-cloud Infrastructure as Code (IaC) tool that lets you define
@@ -40,5 +40,5 @@ parts:
   kite:
     plugin: dump
     source:
-      - on amd64: https://github.com/kitecorp/kite-cli/releases/download/0.3.5/kite-0.3.5-linux-amd64.tar.gz
-      - on arm64: https://github.com/kitecorp/kite-cli/releases/download/0.3.5/kite-0.3.5-linux-arm64.tar.gz
+      - on amd64: https://github.com/kitecorp/kite-cli/releases/download/0.3.6/kite-0.3.6-linux-amd64.tar.gz
+      - on arm64: https://github.com/kitecorp/kite-cli/releases/download/0.3.6/kite-0.3.6-linux-arm64.tar.gz
