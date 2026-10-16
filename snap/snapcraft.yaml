@@ -1,6 +1,6 @@
-# Generated with JReleaser 1.22.0 at 2026-03-22T22:12:20.659951786Z
+# Generated with JReleaser 1.22.0 at 2026-10-16T02:06:44.063673669Z
 name: kite
-version: "0.4.1"
+version: "0.5.0"
 summary: Multi-cloud Infrastructure as Code CLI
 description: |
   Kite is a multi-cloud Infrastructure as Code (IaC) tool that provides
@@ -26,7 +26,7 @@ apps:
 parts:
   kite:
     plugin: dump
-    source: https://github.com/kitecorp/kite-cli/releases/download/v0.4.1/kite-0.4.1-linux-amd64.tar.gz
-    source-checksum: sha256/0b25cb76578f5788353efd67b2bc8fd40c09a67a304547481dcb20b12cea5f28
+    source: https://github.com/kitecorp/kite-cli/releases/download/v0.5.0/kite-0.5.0-linux-amd64.tar.gz
+    source-checksum: sha256/bb485f9fea41dc20f9fb0950c41aa3b9a13ea0c45f1d8f7d0ac6c60a9abbf1bd
     stage-packages:
       - curl
